@@ -66,7 +66,7 @@
    :app/routes []
    :app/vars []
    :app/xrpc? true
-   :app/relative-path "cljs/src/gmail/app.cljs"})
+   :app/relative-path "cljs/src/gmail/app.cljk"})
 
 (rf/reg-event-db
  :initialize-db
