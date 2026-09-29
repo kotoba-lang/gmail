@@ -22,7 +22,7 @@
     proxies to `AGENTGATEWAY_MCP_ROUTER_URL` and is NOT wired into this
     migration's wrangler.jsonc `main`). After this migration, `main` is
     `src/app.ts` — this repo's actual production Worker facade (see its
-    own header and this repo's CLAUDE.md / kotodama.jsonld
+    own header and this repo's AGENTS.md / kotodama.jsonld
     `component.path`) — which handles `/xrpc/com.etzhayyim.apps.gmail.*`
     directly by proxying to `DISPATCHER_URL`, and which was already
     calling `env.ASSETS.fetch(req)` as its fallback branch before this

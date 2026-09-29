@@ -17,7 +17,7 @@
   // env.ASSETS.fetch(req);` line), so it can keep serving both its own
   // `/health`, `/oauth/callback`, `/xrpc/com.etzhayyim.apps.gmail.*` routes
   // AND the static asset bundle. `main` is repointed at src/app.ts, which was
-  // already the intended entry point per this repo's CLAUDE.md/kotodama.jsonld
+  // already the intended entry point per this repo's AGENTS.md/kotodama.jsonld
   // (`component.path: "src/app.ts"`) but was not wired into wrangler.jsonc
   // before this migration. src/xrpc-proxy.ts (the moved +server.ts) is NOT
   // wired as `main` — it duplicates a subset of src/app.ts's XRPC proxying
